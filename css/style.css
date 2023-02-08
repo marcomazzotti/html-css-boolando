@@ -4,3 +4,121 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+img{
+  max-width: 100%;
+}
+
+/* COMMON */
+.container{
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+  border: 1px solid red;
+  /* height: 1100px; */
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.col{
+  width: calc(100% / 3 - (40px / 3));
+  /* border: 1px solid red; */
+  /* height: 300px; */
+}
+
+.card span{
+  font-size: 0.7rem;
+}
+
+.card h6{
+  font-size: 0.7rem
+}
+
+.red{
+  color: red;
+}
+
+.crossed{
+  text-decoration: line-through;
+}
+
+.card{
+  position: relative;
+}
+
+.discount{
+  position:absolute;
+  bottom: 70px;
+  font-size: 0.4rem;
+  background-color: red;
+  height: 12px;
+  width: 22px;
+  text-align: center;
+  line-height: 12px;
+  color: white;
+}
+
+.sostenibilità{
+  position:absolute;
+  bottom: 70px;
+  left: 25px;
+  font-size: 0.4rem;
+  background-color: green;
+  height: 12px;
+  width: 40px;
+  text-align: center;
+  line-height: 12px;
+  color: white;
+}
+
+.sostenibilità-left{
+  position:absolute;
+  bottom: 70px;
+  left: 0;
+  font-size: 0.4rem;
+  background-color: green;
+  height: 12px;
+  width: 43px;
+  text-align: center;
+  line-height: 12px;
+  color: white;
+}
+
+.heart{
+  position: absolute;
+  top: 15px;
+  right: 0;
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-size: 0.7rem;
+  line-height: 23px;
+}
+
+.secondary{
+  display: none;
+}
+
+.wrap-images:hover .secondary{
+  display: block;
+  margin-bottom: 4px;
+}
+
+.wrap-images:hover .primary{
+  display: none;
+}
+
+/* HEADER */
+.header{
+  height: 50px;
+  background-color: #fe6900;
+}
