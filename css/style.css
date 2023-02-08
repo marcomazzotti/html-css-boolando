@@ -38,6 +38,10 @@ img{
   padding-top: 70px;
 }
 
+.padding-bottom{
+  padding-bottom: 20px;
+}
+
 .card span{
   font-size: 0.7rem;
 }
@@ -166,6 +170,31 @@ img{
   justify-content: flex-end;
 }
 
-#icons{
-  padding: 0 5px;
+#user, #heart, #shop{
+  padding: 0 0 0 5px;
+}
+
+/* FOOTER */
+.footer{
+  color: white;
+  background-color: #1a1a1a;
+  padding: 20px 0;
+}
+
+.footer span{
+  font-size: 0.6rem;
+}
+
+.flex-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right{
+  font-size: 0.8rem;
+}
+
+#facebook, #instagram, #pinterest, #square{
+  padding-left: 3px;
 }
