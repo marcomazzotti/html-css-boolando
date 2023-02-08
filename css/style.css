@@ -25,13 +25,17 @@ img{
 .flex{
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 10px;
 }
 
 .col{
-  width: calc(100% / 3 - (40px / 3));
+  width: calc(100% / 3 - (20px / 3));
   /* border: 1px solid red; */
   /* height: 300px; */
+}
+
+.padding-top{
+  padding-top: 70px;
 }
 
 .card span{
@@ -52,6 +56,7 @@ img{
 
 .card{
   position: relative;
+  margin-bottom: 10px;
 }
 
 .discount{
@@ -94,7 +99,7 @@ img{
 
 .heart{
   position: absolute;
-  top: 15px;
+  top: 5px;
   right: 0;
   background-color: white;
   width: 20px;
@@ -121,4 +126,46 @@ img{
 .header{
   height: 50px;
   background-color: #fe6900;
+  color: white;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+}
+
+.logo{
+  width: 10%;
+}
+
+.gender{
+  width: 15%;
+  display: flex;
+  gap: 10px;
+  font-size: 0.8rem;
+}
+
+.gender > li{
+  list-style-type: none;
+  gap: 10px;
+}
+
+.gender a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.icons{
+  width: 15%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#icons{
+  padding: 0 5px;
 }
