@@ -13,12 +13,18 @@ img{
   max-width: 100%;
 }
 
+main{
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+
 /* COMMON */
 .container{
   width: 80%;
   max-width: 1100px;
   margin: 0 auto;
-  border: 1px solid red;
+  
+  /* border: 1px solid red; */
   /* height: 1100px; */
 }
 
@@ -34,13 +40,13 @@ img{
   /* height: 300px; */
 }
 
-.padding-top{
+/* .padding-top{
   padding-top: 70px;
 }
 
 .padding-bottom{
   padding-bottom: 20px;
-}
+} */
 
 .card span{
   font-size: 0.7rem;
@@ -113,13 +119,17 @@ img{
   line-height: 23px;
 }
 
+.heart:hover{
+  color: red;
+  cursor: pointer;
+}
+
 .secondary{
   display: none;
 }
 
 .wrap-images:hover .secondary{
-  display: block;
-  margin-bottom: 4px;
+  display: inline-block;
 }
 
 .wrap-images:hover .primary{
@@ -132,8 +142,11 @@ img{
   background-color: #fe6900;
   color: white;
   position: fixed;
+  top: 0;
+  left: 0;
   z-index: 1;
   width: 100%;
+  box-shadow: 3px 0 3px 3px rgba(0, 0, 0, .4);
 }
 
 .nav{
@@ -145,6 +158,10 @@ img{
 
 .logo{
   width: 10%;
+}
+
+#active{
+  text-decoration: underline;
 }
 
 .gender{
@@ -168,6 +185,7 @@ img{
   width: 15%;
   display: flex;
   justify-content: flex-end;
+  font-size: 0.8rem;
 }
 
 #user, #heart, #shop{
